@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+# Secrets
+.env
+.streamlit/secrets.toml
+# Runtime DB / logs
+data/runtime/*.sqlite
+data/runtime/*.db
+data/runtime/*.sqlite-journal
+data/runtime/*.db-journal
+*.log
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Optional large local-only raw data
+tcm_dataset/
+*.zip
+.env
+.streamlit/secrets.toml
+.git_backup/
+.venv/
+venv/
+__pycache__/
+.vscode/
+.idea/
+*.log
